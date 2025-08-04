@@ -1,0 +1,99 @@
+<template>
+  <v-container fluid class="bg-white" style="padding: 100px 100px 100px 105px">
+
+    <v-row justify="center" align="center" class="mt-15 mb-8">
+      <v-col cols="12" md="8" class="text-center">
+        <h1 class="display-title">¿Por qué elegir nuestra Facturación?</h1>
+      </v-col>
+    </v-row>
+
+    <v-row justify="center" align="center" class="mb-15">
+
+       <v-col cols="12" md="6" class="d-flex justify-center pt-5">
+        <img src="@/assets/images/products/sectorEducativo1.png" alt="Ilustración" class="hero-image" />
+      </v-col>
+
+      <v-col cols="12" md="6">
+        <h1 class="display-title">
+          Tu institución podrá contar con funciones diseñadas para simplificar la gestión administrativa y garantizar el cumplimiento fiscal:
+        </h1>
+
+            <ul class="description-text mt-6 ml-5">
+                <li class="mb-2">Emisión de facturas electrónicas por matrículas, pensiones entre otros</li>
+                <li class="mb-2">Gestión de estudiantes y responsables de pago</li>
+                <li class="mb-2">Control de pagos y seguimiento de deudas pendientes, con alertas automáticas</li>
+                <li class="mb-2">Generación de reportes financieros y académicos integrados</li>
+                <li class="mb-2">Gestión de usuarios con distintos niveles de acceso</li>
+                <li class="mb-2">Cumplimiento total con la normativa tributaria vigente</li>
+                <li class="mb-2">Integración opcional con sistemas académicos existentes</li>
+
+            </ul>
+            
+      </v-col>
+      
+    </v-row>
+
+  </v-container>
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped>
+.display-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #000000;
+}
+
+.description-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+.custom-hover-btn {
+  background-color: #1565C0;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.custom-hover-btn:hover {
+  background-color: rgb(255, 255, 255) !important;
+  color: black !important;
+  border-color: black;
+}
+
+.footer-link {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.1s ease;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.footer-link:hover {
+  color: #1d6ecb;
+  background-color: transparent !important;
+}
+
+
+.about-card {
+  width: 100%;
+  max-width: 290px;
+  min-height: 135px;;
+  border: 1px solid #1565C0;
+  margin: auto;
+  background-color: #1565C0;
+  color: white;
+  
+}
+
+
+
+</style>

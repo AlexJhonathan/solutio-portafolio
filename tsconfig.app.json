@@ -1,0 +1,17 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    // Añade estas opciones para ayudar a TypeScript a reconocer módulos y evitar errores de tipos
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "types": ["vite/client"]
+  }
+}
