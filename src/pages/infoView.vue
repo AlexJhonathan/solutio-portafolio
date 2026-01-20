@@ -6,10 +6,6 @@
         <div class="mb-4 font-weight-bold text-h4">SOLUTIO</div>
 
         <div class="d-flex align-center mb-5">
-          <v-icon class="mr-2" color="orange">mdi-domain</v-icon>
-          <span><strong>NIT / SEPREC:</strong> 396549023</span>
-        </div>
-        <div class="d-flex align-center mb-5">
           <v-icon class="mr-2" color="orange">mdi-phone</v-icon>
           <span>(+591) 73490133</span>
         </div>
